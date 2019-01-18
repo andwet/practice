@@ -1,0 +1,13 @@
+#test {
+	width: 200px;
+	height: 200px;
+	background-color: cyan;
+	margin: 20px;
+}
+
+#out {
+	width: 195px;
+	height: 70px;
+	margin: 20px;
+	font-size: 12px;
+}
