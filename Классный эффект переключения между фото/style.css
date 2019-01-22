@@ -1,0 +1,41 @@
+#wrapper {
+	margin: 30px auto;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	box-shadow: 0 5px 22px rgba(0,0,0,0.3);
+	border-radius: 15px;
+}
+
+#one, #two {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: 0.2s ease;
+}
+
+#one {
+	background: red;
+	/* border-radius: 15px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+	color: white;
+	font-size: 28px;
+}
+#two {
+	background: orange;
+	/*border-radius: 15px 0 0 15px;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+	color: white;
+	font-size: 28px;
+}
+

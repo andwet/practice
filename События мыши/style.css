@@ -1,0 +1,8 @@
+#one {
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+	margin: 50px auto;
+	background: orange;
+	box-shadow: 0 5px 22px rgba(0,0,0,0.3);
+}
